@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,29 +8,31 @@
   <link rel="stylesheet" href="/assets/lib/Bootstrap/css/bootstrap.min.css">
   <title>Studi Agency</title>
 </head>
+
 <body>
   <!--Début Header-->
   <header>
-    <nav class="navbar navbar-expand-lg bg-light fixed-top">
-      <div class="container-fluid">
-            <img src="/assets/img/Logo.StudiAgency.png" alt="Logo" class="logo">
-          </a>
-        <button class="navbar-toggler bs-dark fs-1"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top px-20">
+      <div class="container-fluid ">
+        <img src="/assets/img/Logo.StudiAgency.png" alt="Logo" class="logo">
+        </a>
+        <button class="navbar-toggler bs-dark fs-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse " id="navbarNav">
           <ul class="navbar-nav col">
             <li class="nav-item col-3">
-              <a class="nav-link active text-dark fs-1 fw-bold" aria-current="page" href="#accueil">Accueil</a>
+              <a class="nav-link active text-dark fs-3 fw-bold" aria-current="page" href="#accueil">Accueil</a>
             </li>
             <li class="nav-item col-3">
-              <a class="nav-link text-dark fs-1  fw-bold" href="#">Formation</a>
+              <a class="nav-link text-dark fs-3  fw-bold" href="#formation">Formation</a>
             </li>
             <li class="nav-item col-3">
-              <a class="nav-link text-dark fs-1  fw-bold" href="#">Alternance</a>
+              <a class="nav-link text-dark fs-3  fw-bold" href="#">Alternance</a>
             </li>
             <li class="nav-item col-3">
-              <a class="nav-link text-dark fs-1  fw-bold" href="#">Contact</a>
+              <a class="nav-link text-dark fs-3  fw-bold" href="#">Contact</a>
             </li>
           </ul>
         </div>
@@ -38,38 +41,43 @@
     <!--Fin NavBar -- Début Carousel-->
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
+        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="5000">
           <img src="/assets/img/Ecole.StudiAgency.png" class="img img-fluid" alt="Ecole">
           <div class="carousel-caption d-none d-md-block">
-            <h5 class="fs-1 text-danger">Studi Agency</h5>
-            <p class="fs-3">Une école pour apprendre autrement.</p>
+            <h5 class="fs-1 fw-bold text-danger">Studi Agency</h5>
+            <p class="fs-3 fw-semibold">Une école pour apprendre autrement.</p>
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="5000">
           <img src="/assets/img/Classe.StudiAgency.png" class="img img-fluid" alt="Classe">
           <div class="carousel-caption d-none d-md-block">
-            <h5 class="fs-1 text-danger">Formation</h5>
-            <p class="fs-3">Trouvez dès aujourd'hui la formation pour votre métier de demain.</p>
+            <h5 class="fs-1 fw-bold text-danger">Formation</h5>
+            <p class="fs-3 fw-semibold">Trouvez dès aujourd'hui la formation pour votre métier de demain.</p>
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="5000">
           <img src="/assets/img/Tuteur.StudiAgency.png" class="img img-fluid" alt="Tuteur et Alternant">
           <div class="carousel-caption d-none d-md-block">
-            <h5 class="fs-1 text-danger">Alternance</h5>
-            <p class="fs-3">Avec Studi trouvez l'alternance dont vous avez besoin.</p>
+            <h5 class="fs-1 fw-bold text-danger">Alternance</h5>
+            <p class="fs-3 fw-semibold">Avec Studi trouvez l'alternance dont vous avez besoin.</p>
           </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <button class="carousel-control-next next" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -79,50 +87,162 @@
 
   <!--Début main-->
   <main>
-<section id="accueil">
-  <article class="col">
-    <img class="img-bienvenue col-6" src="" alt="">
-    <br>
-    <h2 class="col-6"></h2>
-    <p class="col-6"></p>
-  </article>
-</section>
-<section id="formation">
-  <div class="card-group">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    <section id="accueil" class="accueil">
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <div class="card-accueil card-body text-center d-flex flex-column justify-content-around h-100">
+              <div class="d-flex flex-column justify-content-center">
+                <h5 class="card-title fs-1 ">Bienvenue chez Studi</h5>
+                <div class="d-flex justify-content-center">
+                  <span class="lign-span align-self-center text-danger"></span>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center">
+                <p class="card-text fs-2 w-75 ">Venez découvrir une nouvelle façon d'apprendre. Une
+                  démarche 100% en ligne, avec des cours interactifs et des lives animés par nos experts. Pour en découvrir davantage clique sur le bouton ci-dessous.</p>
+              </div>
+              <div class="d-flex  justify-content-center ">
+                <div class="justify-content-center">
+                  <a href="#formation" class="btn btn-danger fs-2  ">Cliquez ici</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="/assets/img/bienvenue.StudiAgency.png" class="img-fluid rounded-start" alt="Image de bienvenue">
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </section>
+    <section id="formation" class="text-center">
+      <h1>Formation</h1>
+      <div class="d-flex justify-content-center">
+        <span class="lign-span align-self-center text-danger"></span>
       </div>
-    </div>
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      <div class="card-group text-center">
+        <div class="card">
+          <img src="/assets/img/imageCar.StudiAgency.png" class="card-img-top" alt="logo">
+          <div class="card-body">
+            <h5 class="card-title fs-2">Bootstrap</h5>
+            <p class="card-text fs-4">Découvrez l'un des framework css les plus populaires et créer votre sites en
+              quelques clics.</p>
+            <a href="#formation" class="btn btn-danger fs-2  ">Cliquez ici</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/assets/img/imageCar.StudiAgency.png" class="card-img-top" alt="logo">
+          <div class="card-body">
+            <h5 class="card-title fs-2">Graduate developpeur Angular</h5>
+            <p class="card-text fs-4">Apprenez à coder et développer vos sites avec le framework Angular.</p>
+            <a href="#formation" class="btn btn-danger fs-2  ">Cliquez ici</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/assets/img/imageCar.StudiAgency.png" class="card-img-top" alt="logo">
+          <div class="card-body">
+            <h5 class="card-title fs-2">Bachelor développeur PHP/symfony</h5>
+            <p class="card-text fs-4">Devenez dévoloppeur back-end avec le langague PHP et son framework symfony.
+              content. This card has even longer content than the first to show that equal height action.</p>
+            <a href="#formation" class="btn btn-danger fs-2  ">Cliquez ici</a>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
-<section id="alternance"></section>
-<section id="contact"></section>
+    </section>
+    <!-- Fin section formation -- 
+      Début section alternance-->
+    <section id="alternance" class="alternance py-5 text-center">
+      <h1>Alternance</h1>
+      <div class="d-flex justify-content-center">
+        <span class="lign-span align-self-center text-danger"></span>
+      </div>
+      <div class="container-card pt-5">
+        <div class="row row-cols-1 row-cols-md-3 g-5">
+          <div class="col">
+            <div class="card justify-content-center">
+              <div class="card-body text-center">
+                <h5 class="card-title fs-3">Alternance* - Assistant support technique (H/F)</h5>
+                <p class="card-text fs-4 fw-semibold ">Code - IT · (75) Paris</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card justify-content-center">
+              <div class="card-body text-center">
+                <h5 class="card-title fs-3">Alternance - Apprenti Informatique (H/F)</h5>
+                <p class="card-text fs-4 fw-semibold">Code - IT · (44) Saint-Herblain</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card justify-content-center">
+              <div class="card-body text-center">
+                <h5 class="card-title fs-3">Alternance - Content Manager (H/F) - Paris (01)</h5>
+                <p class="card-text fs-4 fw-semibold">Marketing - Communication · (75) Paris</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card justify-content-center">
+              <div class="card-body text-center">
+                <h5 class="card-title fs-3">Alternance - Digital marketing (H/F) - Paris (12)</h5>
+                <p class="card-text fs-4 fw-semibold">Code - IT · Paris (12)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card justify-content-center">
+              <div class="card-body text-center">
+                <h5 class="card-title fs-3">Alternance* - Développeur No-code (H/F)</h5>
+                <p class="card-text fs-4 fw-semibold">Code - IT · (21) Dijon</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card justify-content-center">
+              <div class="card-body text-center">
+                <h5 class="card-title fs-3">Alternance* - Développeur Web (H/F)</h5>
+                <p class="card-text fs-4 fw-semibold">Code - IT · (51) Reims</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card justify-content-center">
+              <div class="card-body text-center">
+                <h5 class="card-title fs-3">Alternance - WEBMASTER & CM M2 (H/F)</h5>
+                <p class="card-text fs-4 fw-semibold">Code - IT · (92) Puteaux</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card justify-content-center">
+              <div class="card-body text-center">
+                <h5 class="card-title fs-3">Alternance - Technicien systèmes et réseaux (H/F)</h5>
+                <p class="card-text fs-4 fw-semibold">Code - IT · (972) Fort-de-France</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card justify-content-center">
+              <div class="card-body text-center">
+                <h5 class="card-title fs-3">Alternance - Développeur Front-end (H/F)</h5>
+                <p class="card-text fs-4 fw-semibold">Code - IT · (59) Roubaix</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pt-5">
+          <a href="#formation" class="btn btn-danger fs-2  ">Toutes les offres d'emploi</a>
+        </div>
+      </div>
+    </section>
+    <section id="contact"></section>
   </main>
   <!--Fin main-->
 
   <!-- Début footer-->
   <footer>
-    <footer class="text-center text-white" style="background-color: #77dced;">
+    <footer class="text-center text-white" style="background-color: #82EEFD;">
       <!-- Grid container -->
       <div class="container p-4 pb-0">
         <!-- Section: CTA -->
@@ -137,7 +257,7 @@
         <!-- Section: CTA -->
       </div>
       <!-- Grid container -->
-  
+
       <!-- Copyright -->
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
         © 2020 Copyright:
@@ -146,12 +266,15 @@
       <!-- Copyright -->
     </footer>
     <!-- Footer -->
-  </section>
-    
-  </div>
-  <!-- End of .container -->
+    </section>
+
+    </div>
+    <!-- End of .container -->
   </footer>
   <!---->
-  <script src="/assets/lib/Bootstrap/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  <script src="/assets/lib/Bootstrap/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
